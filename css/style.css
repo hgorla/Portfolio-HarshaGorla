@@ -1,0 +1,55 @@
+body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+#logo {
+    width: 3.5vw;
+}
+
+/*main css*/
+.aboutme-img {
+    border: 0.1rem silver solid;
+    border-radius: 50%;
+    box-shadow: 0.2rem 0.1rem 0.35rem black;
+}
+
+#aboutme {
+    background: linear-gradient(#1e3ad8,#065c42);
+}
+
+.aboutme-card {
+    box-shadow: 0.1rem 0.1rem 0.35rem black;
+}
+
+.project-section-title {
+    font-family: "Bungee Inline", sans-serif;
+    text-shadow: 0.2rem 0.1rem 0.2rem black;
+    text-align: center;
+    color: rgb(5, 66, 15);
+}
+
+/*footer css*/
+.copyright-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    text-align: center;
+    text-shadow:0.2rem 0.2rem 0.3rem black;
+}
+
+footer p {
+    color: white;  
+    align-self: center;
+}
+
+@media only screen and (max-width: 567px) {
+    #aboutme {
+        font-size: 1.3rem;
+    }
+
+    #logo {
+        width: 10vw;
+    }
+}
